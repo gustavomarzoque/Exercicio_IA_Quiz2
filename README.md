@@ -102,9 +102,32 @@ Determina o número de gerações (iterações) que o algoritmo irá executar. A
 ![Testes com 10 cidades](1.png)
 
 #### Teste com 15 cidades:
-![Testes com 10 cidades](2.png)
+![Testes com 15 cidades](2.png)
 
 #### Teste com 20 cidades:
-![Testes com 10 cidades](3.png)
+![Testes com 20 cidades](3.png)
 
 É possível perceber que o tempo de execução aumenta consideravelmente à medida que mais cidades são adicionadas.
+Os testes anteriores foram realizados com um tamanho de população = 1000, tamanho de elite = 75, taxa de mutação = 0,01 e geração = 2000.
+Agora, alterando os parâmetros, levando em conta um universo de 10 cidades:
+
+#### Teste com tamanho de população = 2000.
+![Testes com população 2000](4.png)
+
+#### Teste com tamanho de população = 5000.
+![Testes com população 5000](5.png)
+
+O tempo de execução aumentou bastante quando subiu o tamanho da população de 2000 para 5000.
+Agora, o tamanho de população será retornado para 1000.
+
+#### Teste com tamanho da elite 100
+![Testes com elite 100](6.png)
+
+#### Teste com tamanho da elite 200
+![Testes com elite 200](7.png)
+
+#### Teste com tamanho da elite 500
+![Testes com elite 500](8.png)
+
+O tempo de execução aumentou mas muito pouco quando fazemos o aumento do tamanho da elite de 100 para 200 e de 200 para 500.
+Agora, o tamanho da elite será retornado para 75.
