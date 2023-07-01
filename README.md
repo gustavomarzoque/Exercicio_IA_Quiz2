@@ -21,7 +21,7 @@ visita um conjunto de cidades, buscando encontrar a rota mais curta possível.
 
 #### Passo a passo
 
-#####Criação da população inicial:
+##### Criação da população inicial:
 O código vai ser responsável por criar uma população inicial de rotas, recebendo como entrada o tamanho da população e qual a quantidade de cidades. Vai gerar rotas aleatórias pra cada indivíduo da população.
 
 ##### Escolha do parceiro
@@ -131,3 +131,19 @@ Agora, o tamanho de população será retornado para 1000.
 
 O tempo de execução aumentou mas muito pouco quando fazemos o aumento do tamanho da elite de 100 para 200 e de 200 para 500.
 Agora, o tamanho da elite será retornado para 75.
+
+#### Teste com taxa de mutação 0.3
+![Testes com Mutação 0.3 ](9.png)
+
+#### Teste com taxa de mutação 0.9
+![Testes com Mutação 0.9 ](10.png)
+
+Foi possível notar que praticamente não se teve alterações do tempo de processamento triplicando a taxa de mutação.
+Agora, a taxa de mutação será retornada para 0,1.
+
+#### Teste com Geração 2000
+![Testes com Geração 2000 ](11.png) 
+#### Teste com Geração 5000
+![Testes com Geração 5000 ](12.png)
+
+Pode-se observar um aumento expressivo no tempo de execução quando há esse aumento.
