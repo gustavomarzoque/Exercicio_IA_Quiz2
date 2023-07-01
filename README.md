@@ -98,6 +98,24 @@ Parâmetro que indica a probabilidade de mutação de um gene em um cromossomo d
 Determina o número de gerações (iterações) que o algoritmo irá executar. Aumentar o número de gerações permite que o algoritmo tenha mais tempo para explorar o espaço de soluções. No entanto, isso também aumenta o tempo de execução do algoritmo. Além disso, é importante observar que, após um certo número de gerações, o algoritmo pode atingir uma convergência e não melhorar significativamente as soluções.
 
 ### Testes
+Para os testes, vão ser sempre plotados dois gráficos e também o tempo de execução.
+Os dois gráficos têm propósitos diferentes:
+
+#### Gráfico de Distância por geração
+- O primeiro eixo mostra a distância (custo) da melhor rota encontrada até o momento em cada geração do algoritmo genético.
+- O eixo y representa a distância, enquanto o eixo x representa as gerações.
+- O objetivo é visualizar como a distância da melhor rota evolui ao longo das gerações. Idealmente, espera-se que a distância diminua progressivamente, indicando uma melhoria nas soluções encontradas.
+- Esse gráfico permite avaliar o desempenho do algoritmo, verificando se ele está convergindo para soluções melhores ao longo do tempo. Também é útil para determinar quando a convergência ocorre ou se há estagnação no processo.
+
+#### Gráfico de Dispersão das Cidades
+- O segundo gráfico é um gráfico de dispersão que mostra a posição de cada cidade no espaço.
+- Cada ponto no gráfico representa uma cidade, onde a coordenada x representa a posição horizontal e a coordenada y representa a posição vertical da cidade.
+- Esse gráfico permite visualizar a distribuição espacial das cidades e como elas estão dispostas no problema do "Caixeiro Viajante".
+- Ele não está diretamente relacionado ao processo de otimização do algoritmo genético, mas fornece uma representação visual das cidades envolvidas no problema.
+
+Ambos são úteis para análise e interpretação dos resultados do algoritmo genético. O primeiro permite acompanhar o progresso do algoritmo em termos de melhoria da solução ao longo das gerações. O segundo fornece uma representação gráfica das cidades, permitindo uma compreensão visual do problema do "Caixeiro Viajante" e das soluções encontradas.  
+
+
 #### Teste com 10 cidades:
 ![Testes com 10 cidades](1.png)
 
